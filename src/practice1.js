@@ -11,23 +11,16 @@ const parseData = function (input) {
     });*/
 
 
-    for(let v of data){
+    /*for(let v of data){
 
     const obj = {};
     column.forEach((b,index)=>{
       obj[b.name] = v[index]
     })
       array.push(obj);
-     }
+     }*/
 
-  /*  for(let v of data){
 
-        const obj={};
-        for (let [index, elem] of column.entries()) {
-            obj[elem.name]=v[index]
-        }
-        array.push(obj);
-    }*/
     return array;
 }
 
